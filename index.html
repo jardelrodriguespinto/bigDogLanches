@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bigdog Lanches</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <header>
+            <!-- Este é o menu principal-->
+            <nav class="main-nav">
+                <a href="#">
+                    <div class="logo-container">
+                        <h3>Bigdog</h3>
+                        <img class="logo" src="icons/logo.png" alt="logo">
+                    </div>
+                </a>
+                <button class="menu-btn" id="menu-btn">
+                    <img src="icons/hamburguer.png" alt="menu">
+                    <span>Menu</span>
+                </button>
+            </nav>
+            <!-- Este é o menu secondário que é ativado com o Event Listener-->
+            <nav class="secondary-nav">
+                <div class="main-container" id="main-container">
+                    <div class="first-container">
+                        <button class="close-modal" id="close-modal"><span>&times;</span></button>
+                        <div class="logo-container2">
+                            <h3>Bigdog</h3>
+                            <img class="logo" src="icons/logo.png" alt="logo">
+                            <div class="close-or-open">
+                                <h4 class="open"><span class="text">Estamos Abertos</span></h4>
+                                <h4 class="closed"><span class="text">Estamos Fechados</span></h4>                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-container">
+                        <ul class="services">
+                            <li><a href="index.html"><img src="icons/home.png"><span class="text1">Home</span></a></li>
+                            <li><a href="cardapio.html"><img src="icons/cardapio.png"><span>Cardápio</span></a></li> 
+                            <li><a href="#"><img src="icons/shopping-cart.png"><span>Carrinho</span></a></li> 
+                            <li><a href="#"><img src="icons/motorcycle.png"><span>Taxa de entrega</span></a></li> 
+                            <li><a href="#"><img src="icons/localization.png"><span>Localização</span></a></li> 
+                            <li><a href="#"><img src="icons/whatsapp.png"><span>Whatsapp</span></a></li> 
+                            <li><a href="#"><img src="icons/evaluation.png"><span>Avaliação</span></a></li> 
+                            <li><a href="#"><img src="icons/pedidos.png"><span class="text2">Meus pedidos</span></a></li>
+                            <li><a href="#"><img src="icons/user.png"><span class="text3">Minha conta</span></a></li>                
+                        </ul>
+                    </div><br>
+                    <div class="third-container">
+                        <h4>Endereço</h4><br>
+                        <p>Rua Ricardo Muniz da Costa, n° 289 - Fátima - Otacílio Costa, SC</p><br>
+                        <h4>Funcionamento</h4><br>
+                        <p>Quarta à Segunda 18:00 às 23:00</p><br>
+                        <h4>Formas de Pagamento</h4><br>
+                        <ul>
+                            <li>Dinheiro</li>
+                            <li>Pix</li>
+                        </ul><br>
+                        <div class="developer">
+                            <h4>Site desenvolvido por Jardel Rodrigues Pinto &copy;2022</h4>
+                        </div>
+                        </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Conteúdo principal da página-->
+        <main>
+          <section class="main-content-of-the-page">
+            <div class="container">
+                <div class="logo-bigdog">
+                    <h3>Bigdog</h3>
+                    <img class="logo" src="icons/logo.png" alt="logo">
+                </div>
+                <div class="funcionamento">
+                    <h4>Funcionamento</h4>
+                    <p>Quarta à Segunda 18:00 - 23:00</p>
+                </div>
+                <div class="contato">
+                    <img src="icons/whatsapp.png"><span>(49)99166-0255</span>
+                    <img src="icons/telephone.png"><span>(49)99166-0255</span>
+                </div>    
+            </div>
+          </section>
+        </main>
+        <!-- Conteúdo do rodapé da página-->
+        <footer>
+            <ul class="items-of-the-footer">
+                <li><a href="index.html"><img class="footer-icons first" src="icons/home.png">HOME</a></li>
+                <li><a href="cardapio.html"><img class="footer-icons second" src="icons/cardapio.png">VER CARDÁPIO</a></li>
+                <li><a href="#"><img class="footer-icons third" src="icons/pedidos.png">MEUS PEDIDOS</a></li>
+                <li><a href="#"><img class="footer-icons fourth" src="icons/user.png">MINHA CONTA</a></li>
+            </ul>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
